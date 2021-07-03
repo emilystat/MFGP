@@ -1,5 +1,5 @@
 # MFGP-code
-The repository contains sample code on Multivariate Fused Gaussian Process (MFGP)
+The repository contains sample code implementing Multivariate Fused Gaussian Process (MFGP).
 
 Both folders contain examples using MFGP. In folder "2var_non_stationary", simulated data containing two variables are generated from non-stationary and asymmetric process using conditional approach.
 In folder "3var_stationary", data containing three variables are simulated from stationary process.
