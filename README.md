@@ -4,7 +4,7 @@ The repository contains sample code implementing Multivariate Fused Gaussian Pro
 Both folders contain examples using MFGP. In folder "2var_non_stationary", simulated data containing two independent variables are generated from non-stationary and asymmetric process using conditional approach.
 In folder "3var_stationary", data containing three variables are simulated from stationary process.
 
-In both folders, "generate_data.m" is used to generate raw data. "Y_simu.mat" contains the response variable generated using "generate_data.m". 
+In both folders, "Y_simu.mat" contains the response variable generated using "generate_data.m". 
 "main.m" is the main folder to do the job.
 Functions in "EM_MCAR_2Vars.m" and "EM_MCAR_3Vars.m" are the MFGP algorithms for 2 variables and 3 variables respectively.
 "crps.m" is the metric function applied in the paper to conduct comparisons.
