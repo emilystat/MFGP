@@ -6,12 +6,11 @@ In folder "3var_stationary", data containing three independent variables are sim
 In both folders, "Y_simu.mat" contains the response variable generated using "generate_data.m". 
 "main.m" is the main folder to do the job.
 Functions in "EM_MCAR_2Vars.m" and "EM_MCAR_3Vars.m" are the MFGP algorithms for 2 variables and 3 variables respectively.
-"crps.m" is the metric function applied in the paper to conduct comparisons. (1)
-"fminsearchbnd.m" contains the optimization function used in the algorithm. (2)
+"crps.m" is the metric function applied in the paper to conduct comparisons. ref(1)
+"fminsearchbnd.m" contains the optimization function used in the algorithm. ref(2)
 "Predict_missings_v2.m" and "Predict_missings_v3.m" are used for prediction purpose.
-"variogram.m" is implemented to compute variogram. (3)
-
-All the other files are copied directely from SuiteSparse software (4) to conduct Cholesky decomposition.
+"variogram.m" is implemented to compute variogram. ref(3)
+All the other files are copied directely from SuiteSparse software ref(4) to conduct Cholesky decomposition.
 
 
 
