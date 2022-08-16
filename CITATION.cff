@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Li"
+  given-names: "Miaoqi"
+- family-names: "Kang"
+  given-names: "Emily L."
+title: "MFGP"
+version: 1.0.0
+date-released: 2022-07-16
+url: "https://github.com/emilystat/MFGP"
